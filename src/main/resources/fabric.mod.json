@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "nodusrebuild",
+  "version": "1.0.0",
+  "name": "Nodus Rebuild",
+  "description": "Retro-style Nodus client rebuild for Fabric",
+  "authors": ["Stegie"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.nodus.client.NodusClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "minecraft": "1.20.4",
+    "fabric": "*"
+  }
+}
